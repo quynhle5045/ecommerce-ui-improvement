@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Giao diện trang chủ thương mại điện tử minh họa lấy cảm hứng từ Tiki.">
+    <title>Tiki - Mua sắm trực tuyến</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-main container">
+            <a class="logo" href="#" aria-label="Tiki - Trang chủ">tiki<span>.</span></a>
+
+            <form class="search-form" action="#" role="search">
+                <label class="visually-hidden" for="site-search">Tìm kiếm sản phẩm</label>
+                <input id="site-search" type="search" placeholder="Bạn muốn tìm sản phẩm nào?">
+                <button type="submit">Tìm kiếm</button>
+            </form>
+
+            <div class="header-actions">
+                <a href="#" class="header-link"><span aria-hidden="true">♙</span><span>Tài khoản</span></a>
+                <a href="#" class="header-link cart-link"><span aria-hidden="true">🛒</span><span>Giỏ hàng</span></a>
+            </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Điều hướng chính">
+            <div class="container nav-inner">
+                <a href="#categories">Danh mục</a>
+                <a href="#flash-sale">Flash Sale</a>
+                <a href="#featured">Sản phẩm nổi bật</a>
+                <a href="#brands">Thương hiệu</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container" aria-label="Chương trình mua sắm nổi bật">
+            <div class="hero-copy">
+                <p class="eyebrow">ƯU ĐÃI MỖI NGÀY</p>
+                <h1>Mua sắm thả ga<br><span>Ưu đãi cực đã</span></h1>
+                <p>Khám phá sản phẩm yêu thích với mức giá hấp dẫn.</p>
+                <a class="primary-button" href="#featured">Khám phá ngay</a>
+            </div>
+            <div class="hero-art">
+                <img src="https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=1000&q=85"
+                     alt="Các túi mua sắm và hộp quà trong chương trình ưu đãi">
+                <span class="sale-sticker">SALE<br><strong>50%</strong></span>
+            </div>
+        </section>
+
+        <section class="container section" id="categories">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">KHÁM PHÁ</p>
+                    <h2>Danh mục nổi bật</h2>
+                </div>
+            </div>
+            <div class="category-grid">
+                <a class="category-item" href="#featured"><span class="category-icon">📱</span><span>Điện thoại</span></a>
+                <a class="category-item" href="#featured"><span class="category-icon">💻</span><span>Laptop</span></a>
+                <a class="category-item" href="#featured"><span class="category-icon">🎧</span><span>Phụ kiện</span></a>
+                <a class="category-item" href="#featured"><span class="category-icon">🏠</span><span>Nhà cửa</span></a>
+                <a class="category-item" href="#featured"><span class="category-icon">🧴</span><span>Làm đẹp</span></a>
+                <a class="category-item" href="#featured"><span class="category-icon">📚</span><span>Sách</span></a>
+            </div>
+        </section>
+
+        <section class="container section sale-section" id="flash-sale">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">SĂN DEAL GIÁ TỐT</p>
+                    <h2>Flash Sale hôm nay <span class="heading-emoji">⚡</span></h2>
+                </div>
+                <a class="text-link" href="#featured">Xem tất cả <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="product-grid">
+                <article class="product-card" id="product-headphones">
+                    <a class="product-image" href="#product-headphones">
+                        <span class="discount-badge">-25%</span>
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=85"
+                             alt="Tai nghe chụp tai không dây">
+                    </a>
+                    <div class="product-info">
+                        <h3><a href="#product-headphones">Tai nghe Bluetooth chụp tai</a></h3>
+                        <p class="product-price">599.000đ <del>799.000đ</del></p>
+                        <p class="product-meta">★ 4.8 <span>•</span> Đã bán 320</p>
+                        <a class="buy-button" href="#product-headphones">Xem sản phẩm</a>
+                    </div>
+                </article>
+
+                <article class="product-card" id="product-watch">
+                    <a class="product-image" href="#product-watch">
+                        <span class="discount-badge">-20%</span>
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=85"
+                             alt="Đồng hồ đeo tay phong cách tối giản">
+                    </a>
+                    <div class="product-info">
+                        <h3><a href="#product-watch">Đồng hồ thời trang tối giản</a></h3>
+                        <p class="product-price">799.000đ <del>999.000đ</del></p>
+                        <p class="product-meta">★ 4.9 <span>•</span> Đã bán 185</p>
+                        <a class="buy-button" href="#product-watch">Xem sản phẩm</a>
+                    </div>
+                </article>
+
+                <article class="product-card" id="product-camera">
+                    <a class="product-image" href="#product-camera">
+                        <span class="discount-badge">-15%</span>
+                        <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=700&q=85"
+                             alt="Máy ảnh kỹ thuật số">
+                    </a>
+                    <div class="product-info">
+                        <h3><a href="#product-camera">Máy ảnh kỹ thuật số nhỏ gọn</a></h3>
+                        <p class="product-price">4.250.000đ <del>5.000.000đ</del></p>
+                        <p class="product-meta">★ 4.7 <span>•</span> Đã bán 96</p>
+                        <a class="buy-button" href="#product-camera">Xem sản phẩm</a>
+                    </div>
+                </article>
+
+                <article class="product-card" id="product-speaker">
+                    <a class="product-image" href="#product-speaker">
+                        <span class="discount-badge">-30%</span>
+                        <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=700&q=85"
+                             alt="Loa Bluetooth di động">
+                    </a>
+                    <div class="product-info">
+                        <h3><a href="#product-speaker">Loa Bluetooth mini di động</a></h3>
+                        <p class="product-price">489.000đ <del>699.000đ</del></p>
+                        <p class="product-meta">★ 4.8 <span>•</span> Đã bán 240</p>
+                        <a class="buy-button" href="#product-speaker">Xem sản phẩm</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="container section" id="featured">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">GỢI Ý CHO BẠN</p>
+                    <h2>Sản phẩm được quan tâm</h2>
+                </div>
+            </div>
+            <div class="feature-banner">
+                <div>
+                    <h2>Chọn món bạn thích</h2>
+                    <p>Khám phá thêm nhiều sản phẩm phù hợp với nhu cầu mỗi ngày.</p>
+                </div>
+                <a class="secondary-button" href="#flash-sale">Xem ưu đãi</a>
+            </div>
+        </section>
+
+        <section class="container section brand-section" id="brands">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">ĐƯỢC YÊU THÍCH</p>
+                    <h2>Thương hiệu nổi bật</h2>
+                </div>
+            </div>
+            <div class="brand-list">
+                <span>Samsung</span>
+                <span>Apple</span>
+                <span>Xiaomi</span>
+                <span>Logitech</span>
+                <span>JBL</span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="logo footer-logo" href="#">tiki<span>.</span></a>
+                <p>Mua sắm trực tuyến tiện lợi<br>cho mọi nhà.</p>
+            </div>
+            <div>
+                <h2>Hỗ trợ khách hàng</h2>
+                <a href="#">Trung tâm trợ giúp</a>
+                <a href="#">Hướng dẫn mua hàng</a>
+            </div>
+            <div>
+                <h2>Chính sách</h2>
+                <a href="#">Chính sách đổi trả</a>
+                <a href="#">Chính sách bảo hành</a>
+            </div>
+            <div>
+                <h2>Kết nối với chúng tôi</h2>
+                <a href="#">Facebook</a>
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+        <div class="container copyright">© 2026 Tiki UI Demo. Giao diện phục vụ mục đích học tập.</div>
+    </footer>
+</body>
+</html>
